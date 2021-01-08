@@ -1,0 +1,85 @@
+input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+label {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: auto;
+  padding: 5px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgb(0, 130, 167);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgb(0, 130, 167);
+}
+
+#main-header {
+  margin: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: large;
+  margin-top: auto;
+}
+
+#main-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.card {
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+.error {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: x-small;
+}
+
+.sucess-card {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid rgb(11, 190, 50);
+  border-radius: 5px;
+  border-color: rgb(115, 199, 133);
+  background: rgb(199, 228, 205);
+}
+
+#success-head {
+  margin: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: large;
+  margin-top: auto;
+  color: #337e36;
+}
+
+#success-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #337e36;
+}
