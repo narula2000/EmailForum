@@ -17,3 +17,15 @@ var validator = function () {
       "A valid email is required";
   }
 };
+
+var onFocus = function () {
+  if (document.activeElement.tagName != "INPUT") {
+    var email = document.getElementById("email").value;
+    if (!validateEmail(email)) {
+      document.getElementById("email").style.outline = "none";
+      document.getElementById("email").style.border = "1px solid red";
+      document.getElementById("error-text").innerHTML =
+        "A valid email is required";
+    }
+  }
+};
